@@ -41,9 +41,13 @@
 			}
 		?>
 		<?php
-			// if(isset($_POST['new'])){
-			// 	header('Location:new.php')
-			// }
+			require_once 'connection.php';
+			$link = mysqli_connect($host, $user, $password, $database) 
+			    or die("Ошибка " . mysqli_error($link));
+			$query ="CREATE DATABASE test1";
+			mysqli_close($link);
+		?>
+		<?php
 
 				echo '<form method="POST">';
 				echo '<p>'.$_POST['text1'].'<input type="" name="otv1" attern="^[ 0-9]+$"//></p>';

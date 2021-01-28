@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>Добро пожаловать в Админку</h1>
-	<form action='opros.php protocol.php' method="POST">
+	<form action='opros.php' method="POST">
 		<b><p>Ответ число:</p></b>
 		<input type="" name="text1">
 		<b><p>Ответ положительное число:</p></b>
@@ -32,15 +32,15 @@
 		<input type="submit" name="plus6" value="Еще один вариант">
 		<br>
 		<input type="submit" name="new" value="Создать Сессию">
-	</form>
+	</form><br>
 
 		<?php
 			if (isset($_POST['new'])) {
 				echo '<a href="opros.php">Перейти к опросу</a>';
-				echo "Ссылка: http://php-3sem.std-925.ist.mospolytech.ru/opros.php";
+				echo "Сылка: http://php-3sem.std-925.ist.mospolytech.ru/opros.php";
 			}
 		?>
-		
+	<br>	
 	<a href="protocol.php">Открыть протокол</a>
 
 

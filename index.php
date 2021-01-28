@@ -15,10 +15,10 @@
 	?>
 	<h1>OpenForm для Администратора:</h1>
 	<form method="POST">
-		<p>Логин:<input name="login"></p>
-		<p>Пароль:<input type="password" name="pass"></p>
-  		<p><input type="submit"></p>
-    </form>
+	    <p> Логин: <input type="text" name="login" /></p>
+	    <p> Пароль: <input type="password" name="password" /></p>
+	    <input type="submit" value="Войти">
+	</form>
     <footer>
 		<p>28.01.21<br></p>
 		<p>Login:admin</p> 

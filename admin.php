@@ -41,11 +41,13 @@
 			}
 		?>
 		<?php
+			if (isset($_POST['new'])) {
 			require_once 'connection.php';
 			$link = mysqli_connect($host, $user, $password, $database) 
 			    or die("Ошибка " . mysqli_error($link));
 			$query ="CREATE DATABASE test1";
 			mysqli_close($link);
+		}
 		?>
 		<?php
 

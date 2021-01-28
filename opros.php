@@ -10,7 +10,7 @@
 			// if(isset($_POST['new'])){
 			// 	header('Location:new.php')
 			// }
-			if (isset($_POST['new'])) {
+
 				echo '<form method="POST">';
 				echo '<p>'.$_POST['text1'].'<input type="" name="otv1" attern="^[ 0-9]+$"//></p>';
 				echo '<p>'.$_POST['text2'].'<input type="" name="otv2" pattern="^[ 0-9]+$"/></p>';
@@ -20,7 +20,6 @@
 				echo '<form><p>'.$_POST['vopros6'].'</p><p>'.$_POST['text6_1'].'<input type="checkbox" name="var6.1"></p><p>'.$_POST["text6_2"].'<input type="checkbox" name="var6.2"></p><p>'.$_POST["text6_3"].'<input type="checkbox" name="var6.3"></p></form>';
 				echo '<input type="submit" name="new" value="Отправить"></form>';
 
-			}
 
 	?>
 </body>

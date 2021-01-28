@@ -33,10 +33,10 @@
 		<br>
 		<input type="submit" name="new" value="Создать Сессию">
 	</form>
-	
+
 		<?php
 			if (isset($_POST['new'])) {
-				echo '<a>opros.php</a>';
+				echo '<a href="opros.php">Перейти к опросу</a>';
 			}
 		?>
 		

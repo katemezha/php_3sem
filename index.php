@@ -6,11 +6,12 @@
 </head>
 <body>
 	<?php
-	if(isset($_POST['login']) && isset($_POST['password'])&& $_POST['login']=='user' && $_POST['password']=='12345'){
+	if(isset($_POST['login']) && isset($_POST['password'])&& $_POST['login']=='admin' && $_POST['password']=='12345'){
 	 
 		header('Location: admin.php');
 
 	}
+
 	?>
 	<h1>OpenForm для Администратора:</h1>
 	<form method="POST">

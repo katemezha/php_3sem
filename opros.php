@@ -12,7 +12,7 @@
 			// }
 
 				echo '<form method="POST">';
-				echo '<p>'.$_POST['text1'].'<input type="" name="otv1" attern="^[ 0-9]+$"//></p>';
+				echo '<p>'.$text1.'<input type="" name="otv1" attern="^[ 0-9]+$"//></p>';
 				echo '<p>'.$_POST['text2'].'<input type="" name="otv2" pattern="^[ 0-9]+$"/></p>';
 				echo '<p>'.$_POST['text3'].'<input type="" name="otv3"  pattern="{,20}" size="30"/></p>';
 				echo '<p><input type="textarea" name="otv4"  rows="5" cols="255">'.$_POST['text4'].'</p>';
